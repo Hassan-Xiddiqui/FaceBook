@@ -1,0 +1,18 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right bottom, rgba(2, 2, 34, 0.842), rgb(8, 8, 92)) no-repeat center center/cover;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+@import 'variable';
+@import 'layout';
+@import 'component';
